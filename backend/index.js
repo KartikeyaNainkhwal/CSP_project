@@ -50,8 +50,8 @@ app.post("/posts", verifytoken, upload.single("picture"), createPost);
 
 
 // Mongoose setup
-const port = 3001;
-mongoose.connect("mongodb+srv://Kartikeya:1089qpalzm@cluster0.iqybizk.mongodb.net/<databaseName>?retryWrites=true&w=majority")
+const port = process.env.PORT || 3001;
+mongoose.connect(process.env.MONGODB_URL)
   .then(() => {
     app.listen(port, () => {
       console.log(`server is running on port ${port}`);
