@@ -53,8 +53,6 @@ Socialytic/
 └── README.md           # Project documentation
 ```
 
----
-
 ## Workflow Diagram
 
 ```plaintext
