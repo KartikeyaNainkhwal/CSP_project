@@ -123,13 +123,6 @@ Socialytic/
    ```bash
    npm install
    ```
-
-3. **Environment Variables**  
-   Configure the following variables in a `.env` file:
-   - `PORT` - Port for the server to run.
-   - `MONGO_URI` - MongoDB connection string.
-   - `JWT_SECRET` - Secret key for JWT token generation.
-
 ---
 
 ## Future Enhancements
