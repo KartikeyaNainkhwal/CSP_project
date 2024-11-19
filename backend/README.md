@@ -121,6 +121,14 @@ Socialytic/
    ```bash
    npm install
    ```
+   3. **Environment Variables**  
+   Configure the following variables in a `.env` file:
+   
+   - `MONGODB_URL` - MongoDB connection string.
+   
+
+
+
 ---
 
 ## Future Enhancements
